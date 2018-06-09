@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .blue{
+        color: blue;
+    }
+
+    .green {
+        color: green;
+    }
+
+</style>
+    <button onclick="diaoxie_sd(2)">闪电苦力怕挨打</button>
+    <button onclick="diaoxie_pt()">普通苦力怕挨打</button>
+    <p id="p1"></p>
+    <br>
+<script>
+    var clp_1 = 150;  //闪电苦力怕的血量
+    var clp_2 = 78;   //普通库里怕的血量
+
+    output();
+    function output() {
+        var p1 = document.getElementById("p1");
+        p1.innerHTML = "<span class='blue'>闪电苦力怕:" + clp_1 + "</span>，<span class='green'>苦力怕:" + clp_2+"</span>"
+    }
+
+
+    function diaoxie_sd(a) {
+        clp_1 = clp_1 - a;
+        output()
+    }
+
+    function diaoxie_pt() {
+        clp_2 = clp_2 - 10;
+        output()
+    }
+</script>
+
+</body>
+</html>
