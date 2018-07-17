@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <title>计算器</title>
+</head>
+<style>
+    .row{
+        max-width: 400px;
+    }
+    body {
+        background-color: #31b0d5;
+    }
+</style>
+<body>
+<script>
+    var a="";
+    function append(num) {
+        a += num;
+        document.getElementById("res").setAttribute("value", a)
+    }
+
+    function clc() {
+        a = "";
+        document.getElementById("res").setAttribute("value", a)
+    }
+
+    function calc() {
+        var b = eval(a);
+        document.getElementById("res").setAttribute("value", a+"="+b)
+        a=""
+    }
+</script>
+<br><br><br><br><br><br><br><br><br><br><br>
+<center><div class="container">
+    <div class="row"><input class="form-control" id="res" type="text" value="" disabled/></div>
+    <div class="row">
+        <button class="col-xs-3 btn btn-info" onclick="append('1')">1</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('2')">2</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('3')">3</button>
+        <button class="col-xs-3 btn btn-primary" onclick="append('+')">+</button>
+    </div>
+    <div class="row">
+        <button class="col-xs-3 btn btn-info" onclick="append('4')">4</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('5')">5</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('6')">6</button>
+        <button class="col-xs-3 btn btn-primary" onclick="append('-')">-</button>
+    </div>
+    <div class="row">
+        <button class="col-xs-3 btn btn-info" onclick="append('7')">7</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('8')">8</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('9')">9</button>
+        <button class="col-xs-3 btn btn-primary" onclick="append('*')">x</button>
+    </div>
+    <div class="row">
+        <button class="col-xs-3 btn btn-danger" onclick="clc()">CE</button>
+        <button class="col-xs-3 btn btn-info" onclick="append('0')">0</button>
+        <button class="col-xs-3 btn btn-primary" onclick="calc()">=</button>
+        <button class="col-xs-3 btn btn-primary" onclick="append('/')">÷</button>
+    </div>
+
+</div></center>
+<a href="陈伯麟的网站3.5测试版.html">去网站</a>
+</body>
+</html>
+</body>
+</html>
