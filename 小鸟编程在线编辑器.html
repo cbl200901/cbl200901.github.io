@@ -1,0 +1,481 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google-site-verification" content="s8kjpPBGCyGVTO_8WK0tGs2K1c0CreaDKC6o-lpb36s" />
+    <title>小鸟编程</title>
+    <meta name="author" content="Anycodes Team" />
+    <meta name="copyright" content="2001-2013 Jlqlkj Inc." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"href="http://www.anycodes.cn/anycodes.ico">
+    <!--<meta property="wb:webmaster" content="2aa803911029d580" />-->
+    <!-- Bootstrap -->
+    <!--<link href="web/dist/css/myBootStrap.css" rel="stylesheet" media="all" />-->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/css/bootstrap.min.css">
+    <link href="/web/dist/css/navbar-static-top.css" rel="stylesheet" media="all" />
+    <link rel="alternate" hreflang="en" href="http://www.anycodes.cn/en/" />
+    <link rel="alternate" hreflang="zh" href="http://www.anycodes.cn/zh/" />
+    <link rel="alternate" hreflang="ko" href="http://www.anycodes.cn/kr/" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --><!--
+    <link rel="canonical" href="http://www.anycodes.cn" />
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+
+
+
+    <script src="/web/js/zh/debug_main3.min.js"></script>
+    <style type="text/css" media="screen">
+
+        #editor {
+            margin: 0;
+            min-height: 400px;
+        }
+        #editor_header {
+            margin: 0;
+            min-height: 400px;
+        }
+
+    </style>
+    <style type="text/css" media="all">
+        table.table .table {
+            margin-bottom: 0px;
+            background-color: #f0f0f0;
+            border: 0px;
+            color: #333333;
+        }
+        .table{
+            margin-bottom: 0px;
+        }
+    </style>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-46034304-2', 'anycodes.cn');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<!-- <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js?onload=onLoadCallback';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script> -->
+<body style="min-width: 640px;" >
+
+
+<header class="navbar navbar-inverse  navbar-static-top"  id="header">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+</header>
+
+
+
+    <div class="jumbotron" align="middle" style="font-size: 14px; padding: 0px; padding-bottom: 0px; margin: 0px; margin-bottom: 0px;">
+        <table class="table" id="mainTable" width="1%">
+            <tbody>
+            <tr>
+                <td id="mainTd" style="vertical-align: top; border-top: 0px;" width="1%">
+
+                    <div>
+
+                        <table class="table" width="1%">
+                            <tbody>
+                            <tr id="headTr">
+                                <td colspan="2">
+                                    <table class="table" id="headTable" >
+                                        <tbody>
+                                        <tr>
+                                            <td style="text-align: left; padding: 0px; border-top: 0px;">
+                                                <span style="vertical-align: middle;">在线编辑器</span>
+                                            </td>
+                                            <td style="text-align: right; padding: 0px; border-top: 0px;">
+                                                <!-- Baidu Button BEGIN -->
+                                                <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" style="float: right;">
+                                                    <a class="bds_tsina" style="padding-bottom: 16px ;"></a>
+                                                    <a class="bds_qzone" style="padding-bottom: 16px;"></a>
+                                                    <a class="bds_tqq" style="padding-bottom: 16px;"></a>
+                                                    <a class="bds_renren" style="padding-bottom: 16px;"></a>
+                                                    <a class="bds_t163" style="padding-bottom: 16px;"></a>
+                                                    <span class="bds_more" style="padding-bottom: 16px;"></span>
+                                                    <a class="shareCount"></a>
+                                                </div>
+                                                <!-- Baidu Button END -->
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr id="contentTr">
+                                <td id="lanTd" width="1%" style="vertical-align: top; text-align: left; width: 30px; max-width: 90px;" align="left">
+                                    <span style="vertical-align: middle" class="">选择语言:</span>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="C" checked="checked">
+                                        <span style="text-align:left; vertical-align: middle" class="">C</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Cpp">
+                                        <span style="text-align:left; vertical-align: middle" class="">C++</span>
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Java">
+                                        <span style="text-align:left; vertical-align: middle" class="">Java</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Python">
+                                        <span style="text-align:left; vertical-align: middle" class="">Python</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Php">
+                                        <span style="text-align:left; vertical-align: middle" class="">Php</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Matlab">
+                                        <span style="text-align:left; vertical-align: middle" class="">Matlab</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Tcl">
+                                        <span style="text-align:left; vertical-align: middle" class="">Tcl</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Ruby">
+                                        <span style="text-align:left; vertical-align: middle" class="">Ruby</span>
+
+                                    </nobr>
+                                    <br />
+                                    <nobr style="text-align: left">
+
+                                        <nobr style="text-align: left">
+
+                                            <input style="text-align:left; vertical-align: middle" type="radio" name="lang" value="Perl">
+                                            <span style="text-align:left; vertical-align: middle" class="">Perl</span>
+
+                                        </nobr>
+                                        <br />
+                                        <!-- <br /><br /><br /><br /><br /><br /><br /><br />-->
+                                </td>
+
+                                <td  id="editorTd" align="left" style="vertical-align: middle;">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <!-- <td> -->
+                                            <div id="tabindex" style="display: block;">
+                                                <ul class="ul-beta">
+                                                    <li class="li-selected-beta" id="li1" name="li">
+                                                        <a class="a-beta" href="javascript:void(0)">
+                                                            <span id="tab1" class="span-beta">main.c</span>
+                                                            <span class="icon-beta"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li-beta" id="li2" name="li">
+                                                        <a class="a-beta" href="javascript:void(0)">
+                                                            <span id="tab2" class="span-beta">header.h</span>
+                                                            <span class="icon-beta"></span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- </td> -->
+                                        </tr>
+                                        <tr>
+                                            <!-- <td> -->
+                                            <!--
+                                            <textarea id="text_cpp" class="form-control animated" name="code" rows="15" style=" color:#000000;" wrap="off" autofocus></textarea>
+                                            -->
+                                            <div id="code" style="display:block;"><pre id="editor"></pre></div><div id="code_header" style="display:none;"><pre id="editor_header"></pre></div>
+                                            <!-- </td> -->
+                                        </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                </td>
+                            </tr>
+                            <tr id="stdinTr" style="display: none;">
+                                <div id="stdinDiv">
+                                    <td colspan="1" style="vertical-align: middle;">
+                                        <div>标准输入:</div>
+                                    </td>
+                                    <td id="stdinTd" colspan="1" class="" style="vertical-align: middle; text-align: left;border-bottom: none;">
+                                        <div>
+                                            <div id="stdin" style="display: block">
+                                                <textarea id="stdinput" type="text" class="form-control" style="width: 100%;" rows="1" autofocus spellcheck='false' placeholder="标准输入参数，例如C语言中的scanf输入"></textarea>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr id="cmdTr" style="display: none;">
+                                <div id="cmdDiv">
+                                    <td colspan="1" style="vertical-align: middle;">
+                                        <div>命令参数:</div>
+                                    </td>
+                                    <td id="cmdTd" colspan="1" class="" style="vertical-align: middle; text-align: left; border-bottom: none;">
+                                        <div>
+                                            <div id="cmdLine" style="display: block">
+                                                <textarea id="cmdinput" type="text" class="form-control" style="width: 100%;" rows="1" autofocus spellcheck='false' placeholder="命令行参数，例如C语言中main函数的参数"></textarea>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr id="submmitTr">
+                                <td colspan="2" style="vertical-align: middle; text-align: right;">
+                                    <table class="table" width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td id="submmitTd" style="text-align: right; padding: 0px; border-top: 0px;">
+                                                <div>
+                                                    <table class="table">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td align="left" style="text-align: left; border-top: 0px; padding: 0px 2px 0px 2px; float: left;">
+                                                                <button type="button" title="stdinput"  style="margin: 0px; color: #333333;">
+                                                                    <span class="glyphicon glyphicon-transfer" style="vertical-align: middle;"></span> 标准输入
+                                                                </button>
+                                                            </td>
+                                                            <td align="left" style="text-align: left; border-top: 0px; padding: 0px 2px 0px 2px; float: left;">
+                                                                <button type="button" title="command"  style="margin: 0px;  color: #333333;">
+                                                                    <span class="glyphicon glyphicon-transfer" style="vertical-align: middle;"></span> 命令参数
+                                                                </button>
+                                                            </td>
+
+                                                            <td id="subTd" style="text-align: right; border-top: 0px; margin: 0px; padding: 0px 2px 0px 2px; float: right;">
+                                                                <button type="button" title="run" style="margin: 0px;  color: #333333;">
+                                                                    <span style="vertical-align: middle;">运行</span>
+                                                                </button>
+                                                            </td>
+                                                            <td id="fullTd" style="text-align: right; border-top: 0px; margin: 0px; padding: 0px 2px 0px 2px; float: right;">
+                                                                <button type="button" title="fullScreen" style="margin: 0px;  color: #333333;">
+                                                                    <span class="glyphicon glyphicon-fullscreen" style="vertical-align: middle;"></span>
+                                                                </button>
+                                                            </td>
+                                                            <td align="right" style="text-align: right; border-top: 0px; margin: 0px; padding: 0px 2px 0px 2px; float: right;">
+                                                                <button id="download" type="button" title="Save files" style="text-align: right; margin: 0px;  color: #333333;" disabled>
+                                                                    <span class="glyphicon glyphicon-save" style=" vertical-align: middle;"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr id="outputTr" style="display: table-row;">
+                                <td colspan="2" style="vertical-align: middle;">
+                                    <div id="Output" style="display: block">
+                                        <table class="table" width="2%" id="OutputTable">
+                                            <tbody>
+                                            <!--<div class="Output" style="text-align: left; display: none" id="Output">-->
+                                            <!-- <tr>
+                                                <td style="vertical-align: top; text-align: left">
+                                                    <span>Output:</span>
+                                                </td>
+                                            </tr> -->
+                                            <tr id="textOutputTr" style="display: none;">
+                                                <div>
+                                                    <td style="vertical-align: middle">
+                                                        <div style="vertical-align: top; text-align: left;">
+                                                            <span>输出:</span>
+                                                        </div>
+                                                        <div>
+                                                            <!--<textarea class="form-control" id="debug_output" rows="" wrap="off" readonly></textarea>-->
+                                                            <pre id="debug_output" style="text-align: left; margin-bottom: 0px;">
+																			</pre>
+                                                        </div>
+                                                    </td>
+                                                </div>
+                                            </tr>
+                                            <!--</div>-->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div id="MatlabOutPut" align="center" style="display: block">
+                                        <table class="table" width="2%" id="OutputTable">
+                                            <tbody>
+                                            <!-- <tr>
+                                                <td style="vertical-align: top; text-align: left">
+                                                    <span class="">Output:</span>
+                                                </td>
+                                            </tr> -->
+                                            <tr id="imgOutputTr" style="display: none;">
+                                                <div>
+                                                    <td align="center">
+                                                        <div style="text-align: left;">
+                                                            <span style="text-align: left;">输出:</span>
+                                                        </div>
+                                                        <img id="matlabImg" src="/images/default.png" alt="default" class="img-thumbnail" align="center">
+                                                    </td>
+                                                </div>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <!--	</form> -->
+                    </div>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- <div class="slide_feedback_btn">
+    <div style=" padding: 6px 1px;">
+        <a id="feedbackdailog" href="javascript:;">feedback</a>
+    </div>
+</div> -->
+<!-- <div id="uvTabL" style="background-image: url(/images/tab-right-dark.png); border-top-width: 1px; border-bottom-width: 1px; border-left-width: 0px; border-right-width: 1px; border-style: solid none solid solid; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-left-radius: 0px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 0px; -webkit-box-shadow: rgba(255, 255, 255, 0.247059) 1px 1px inset 1px, rgba(0, 0, 0, 0.498039) 0px 1px 2px; box-shadow: rgba(255, 255, 255, 0.247059) 1px 1px inset 1px, rgba(0, 0, 0, 0.498039) 0px 1px 2px; font-style: normal; font-variant: normal; font-weight: bold; font-size: 14px; line-height: 1em; font-family: Arial, sans-serif; position: fixed; left: 0px; top: 60%; z-index: 9999; background-color: #f15a34; margin-top: -60px; background-position: 50% 0px; background-repeat: no-repeat no-repeat;" class="uv-tab uv-slide-right ">
+<a id="uvTabLabelLeft" style="background-color: transparent; display:block;padding:39px 5px 10px 5px;text-decoration:none;" href="#">
+    <img src="/images/webchat-zh.png" alt="feedback" style="border:0; background-color: transparent; padding:0; margin:0;">
+</a>
+</div> -->
+<div style="position: relative; visibility: visible; z-index: 100003; display: none;" id="uvw-overlay-uv-1-left" class="uvOverlay1">
+    <div style="background: #000; -ms-filter: alpha(opacity=75); filter: alpha(opacity=75); opacity: .75; position: fixed; top: 0; right: 0; bottom: 0; left: 0;" id="uvw-overlay-background-uv-1">
+
+    </div>
+    <div style="height: 100%; overflow: auto; position: fixed; top: 0; right: 0; bottom: 0; left: 0;" class="uvOverlay2">
+        <div style="height: 100%; min-height: 550px; min-width: 900px; position: relative; width: 100%;" class="uvOverlay3">
+            <div style="-webkit-box-shadow: rgba(0,0,0,.5) 0 5px 5px; height: 500px; margin: -250px 0 0 -444px; position: absolute; top: 50%; left: 50%; width: 888px;" id="uvw-dialog-uv-1-left">
+                <div style="z-index: 100004; background: transparent url(/images/close.png) 0 0 no-repeat; height: 48px; margin: 0; padding: 0; position: absolute; top: -22px; right: -24px; width: 48px;" title="Close Dialog" id="uvw-dialog-close-uv-1-left">
+                    <button style="background: none; border: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; cursor: pointer; height: 30px; margin: 6px 0 0 9px; padding: 0; width: 30px; text-indent: -9000px;">
+                        Close Dialog
+                    </button>
+                </div>
+                <div style="position:static; width:100%; height:100%" id="uvw-dialog-content-uv-1-left">
+                    <iframe frameborder="0" name="uvw-iframe-undefined" class="uvw-dialog-iframe" style="display: block; border: medium none; height: 100%; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; visibility: visible;" allowtransparency="true" src="https://kiwiirc.com/client/irc.kiwiirc.com/?nick=Anycodes|?&theme=cli#Anycodes">
+
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="position: relative; visibility: visible; z-index: 100003; display: none;" id="uvw-overlay-uv-1" class="uvOverlay1">
+    <div style="background: #000; -ms-filter: alpha(opacity=75); filter: alpha(opacity=75); opacity: .75; position: fixed; top: 0; right: 0; bottom: 0; left: 0;" id="uvw-overlay-background-uv-1">
+
+    </div>
+    <div style="height: 100%; overflow: auto; position: fixed; top: 0; right: 0; bottom: 0; left: 0;" class="uvOverlay2">
+        <div style="height: 100%; min-height: 550px; min-width: 900px; position: relative; width: 100%;" class="uvOverlay3">
+            <div style="-webkit-box-shadow: rgba(0,0,0,.5) 0 5px 5px; height: 500px; margin: -250px 0 0 -444px; position: absolute; top: 50%; left: 50%; width: 888px;" id="uvw-dialog-uv-1" data-widget-key="uv-1">
+                <div style="z-index: 100004; background: transparent url(/images/close.png) 0 0 no-repeat; height: 48px; margin: 0; padding: 0; position: absolute; top: -22px; right: -24px; width: 48px;" title="Close Dialog" id="uvw-dialog-close-uv-1">
+                    <button style="background: none; border: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; cursor: pointer; height: 30px; margin: 6px 0 0 9px; padding: 0; width: 30px; text-indent: -9000px;">
+                        Close Dialog
+                    </button>
+                </div>
+                <div style="position:static; width:100%; height:100%" id="uvw-dialog-content-uv-1">
+                    <iframe frameborder="0" name="uvw-iframe-undefined" class="uvw-dialog-iframe" style="display: block; border: medium none; height: 100%; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; visibility: visible;" allowtransparency="true" src="/zh/commentbox">
+
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="uvTab" style="border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-style: solid none solid solid; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 4px; -webkit-box-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 1px inset, rgba(0, 0, 0, 0.498039) 0px 1px 2px; box-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 1px inset, rgba(0, 0, 0, 0.498039) 0px 1px 2px; font-style: normal; font-variant: normal; font-weight: bold; font-size: 14px; line-height: 1em; font-family: Arial, sans-serif; position: fixed; right: 0px; top: 50%; z-index: 9999; background-color: #f15a34; margin-top: -60px; background-position: 50% 0px; background-repeat: no-repeat no-repeat;" class="uv-tab uv-slide-right ">
+    <div style="border-radius: 4px 0px 0px 0px; background-color: #0a630a;"></div>
+    <div style="border-radius: 0px 0px 0px 4px; background-color: #c13e20;"></div>
+</div>
+<script src="/web/ace-builds/src-min/ace.js" type="text/javascript" charset="utf-8"></script><script src="/web/ace-builds/src-min/ext-language_tools.js" type="text/javascript" charset="utf-8"></script><script>
+    ace.require("ace/ext/language_tools");
+    var editor = ace.edit("editor");
+    var editor_header = ace.edit("editor_header");
+    editor.setOptions({
+        enableBasicAutocompletion: true,
+        enableSnippets: true});
+    editor_header.setOptions({
+        enableBasicAutocompletion: true,
+        enableSnippets: true});
+    editor.setTheme("ace/theme/xcode");
+    editor.getSession().setMode("ace/mode/c_cpp");editor.setFontSize(14);
+    editor.setValue("//#include \"header.h\"   //Anycodes includes the head file by default, needn't cancle the notation.\n#include <stdio.h>\n#include <stdlib.h>\nint main(void)\n{\n\tprintf(\"Hello,C world of Anycodes!\");\n\treturn EXIT_SUCCESS;\n}");
+    editor.focus();
+    var n = editor.getSession().getValue().split("\n").length;
+    editor.gotoLine(n+1);
+    editor_header.setTheme('ace/theme/xcode');
+    editor_header.getSession().setMode('ace/mode/c_cpp');
+    editor_header.setFontSize(14);
+    editor_header.setValue("//If you need the header file, then write your code here.\n");
+    var m = editor_header.getSession().getValue().split("\n").length;
+    editor_header.gotoLine(n+1);
+</script>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6880948" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+    var bds_config = {'bdText':'Anycodes | 在线编程不论何时何地\nAnycodes，一个在线编程网站，支持九种编程语言。不仅支持语法高亮，代码折叠，语法纠错，而且支持多文件，标准输入，命令行参数，程序下载等。手机也可访问哦！'};
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?5bc620c75b42e9b199cfe2e1cfe58865";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+<script>
+    var timestamp = "1485357959";
+    $(window).unload(function() {
+        u();
+    });
+</script>
+</html>

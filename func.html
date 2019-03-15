@@ -22,6 +22,7 @@
 <script>
     var clp_1 = 150;  //闪电苦力怕的血量
     var clp_2 = 78;   //普通库里怕的血量
+    var is_die = false;
 
     output();
     function output() {
@@ -35,8 +36,19 @@
         output()
     }
 
-    function diaoxie_pt() {
-        clp_2 = clp_2 - 10;
+        function diaoxie_pt() {
+        if (is_die){
+            alert("已死");
+            return
+        } else if (clp_2 < 10){
+            alert("爆炸");
+            clp_2 = 0;
+            clp_1 = clp_1 - 50;
+            is_die = true
+        } else {
+            clp_2 = clp_2 - 10;
+        }
+
         output()
     }
 </script>
