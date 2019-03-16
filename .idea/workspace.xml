@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="陈伯麟的网站3.5测试版.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="陈伯麟的网站3.5测试版.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+            <state relative-caret-position="556">
+              <caret line="96" column="87" selection-start-line="96" selection-start-column="87" selection-end-line="96" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="小鸟编程 v3.0.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="小鸟编程 v3.0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/小鸟编程 v3.0.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="702">
               <caret line="62" column="45" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="za.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/za.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1836">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -107,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CBL计算器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CBL计算器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,7 +169,6 @@
         <option value="$PROJECT_DIR$/小鸟编程 v0.0.html" />
         <option value="$PROJECT_DIR$/小鸟编程 v1.0.html" />
         <option value="$PROJECT_DIR$/小鸟编程 v0.5.html" />
-        <option value="$PROJECT_DIR$/za.html" />
         <option value="$PROJECT_DIR$/小鸟编程在线编辑器.html" />
         <option value="$PROJECT_DIR$/小鸟编程 v3.5.html" />
         <option value="$PROJECT_DIR$/chinanews.html" />
@@ -184,8 +183,9 @@
         <option value="$PROJECT_DIR$/兑奖.html" />
         <option value="$PROJECT_DIR$/蓝心社.html" />
         <option value="$PROJECT_DIR$/CBL计算器.html" />
-        <option value="$PROJECT_DIR$/陈伯麟的网站3.5测试版.html" />
         <option value="$PROJECT_DIR$/小鸟编程 v3.0.html" />
+        <option value="$PROJECT_DIR$/za.html" />
+        <option value="$PROJECT_DIR$/陈伯麟的网站3.5测试版.html" />
       </list>
     </option>
   </component>
@@ -342,12 +342,12 @@
       <workItem from="1552651464314" duration="1601000" />
       <workItem from="1552653300403" duration="1798000" />
       <workItem from="1552655115875" duration="2073000" />
-      <workItem from="1552706329987" duration="1478000" />
+      <workItem from="1552706329987" duration="1791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104389000" />
+    <option name="totallyTimeSpent" value="104702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/za.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wenews.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
@@ -691,16 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/小鸟编程 1.0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -757,6 +740,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="62" column="45" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/za.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="96" column="87" selection-start-line="96" selection-start-column="87" selection-end-line="96" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
