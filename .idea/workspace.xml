@@ -23,8 +23,8 @@
       <file leaf-file-name="陈伯麟的网站3.5测试版.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            <state relative-caret-position="2349">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="蓝心社.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="蓝心社.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/蓝心社.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            <state relative-caret-position="205">
+              <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -44,17 +44,17 @@
       <file leaf-file-name="MC社.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MC社.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="1917">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/一带一路.html" />
         <option value="$PROJECT_DIR$/陈伯麟的网站3.5测试版.html" />
         <option value="$PROJECT_DIR$/MC社.html" />
-        <option value="$PROJECT_DIR$/蓝心社.html" />
         <option value="$PROJECT_DIR$/p2.html" />
+        <option value="$PROJECT_DIR$/蓝心社.html" />
       </list>
     </option>
   </component>
@@ -203,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,11 +347,12 @@
       <workItem from="1552793757644" duration="685000" />
       <workItem from="1552823490689" duration="805000" />
       <workItem from="1553086450939" duration="1804000" />
+      <workItem from="1553088363201" duration="272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111252000" />
+    <option name="totallyTimeSpent" value="111524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,6 +365,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1406744" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.3293348" />
@@ -728,22 +730,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MC社.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/蓝心社.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        <state relative-caret-position="1917">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        <state relative-caret-position="2349">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -753,7 +748,14 @@
     <entry file="file://$PROJECT_DIR$/p2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/蓝心社.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
         </state>
       </provider>
     </entry>
