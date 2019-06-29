@@ -1,79 +1,217 @@
-<!DOCTYPE html>
-<html lang="en">
+、<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>小鸟编程 test</title>
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>小鸟编程</title>
+    <link rel="shortcut icon" type="image/x-icon" href="//cdn.home178.com/education/edu02/images/favicon22c41b.ico">
+    <link href="//cdn.home178.com/cansp/style/file.css" rel="stylesheet" />
+    <link href="//cdn.home178.com/mel/mel14/style/file.css" rel="stylesheet" />
+    <link href="//cdn.home178.com/education/common/style/aima.css" rel="stylesheet" />
+    <link href="//cdn.home178.com/education/common/clipboard/clipboard.css" rel="stylesheet" />
+    <link href="//cdn.home178.com/education/common/style/unload.css" rel="stylesheet" type="text/css" />
+    <link href="//cdn.home178.com/mel/mel01/style/adds.css" rel="stylesheet" />
+    <script src="//cdn.home178.com/education/common/jquery.min.js"></script>
+    <script src="//cdn.home178.com/js/jquery.lazyload.min.js" type="text/javascript"></script>
+    <style>
+        .btom {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        #toast_content {
+            border-radius: 32px;
+            background: #999;
+            opacity: 0.9;
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 640px) {
+            .btom {
+                display: block;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        $(function() {
+            $("img.lazy").lazyload({
+                threshold: 1200,
+                effect: "fadeIn"
+            });
+        });
+    </script>
+
+
+
+
+
 <body>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
-<style>
+<div class="fixed-right">
+    <div class="fixght">
+        <p>
+            <h1>小鸟编程</h1>
+        </p>
+    </div>
+</div>
+<div id="content">
+    <div id="box">
+        <div class="headbox">小鸟编程V3.5</div>
+        <div class="main">
+            <div class="bto">
+                <h3>
+                    电子书下载
+                </h3>
+            </div>
 
-    .v9 {
-        FONT-SIZE: 9pt; FONT-FAMILY: 微软雅黑
-    }
-    div.Section1
-    {page:Section1;}
+            <p class="mm-text">
+            <center>
+             <h3><a href="http://vdisk.weibo.com/s/BN_NALmbbBH0i">C++语言</a></h3>
+            <h3><a href="https://www.2cto.com/ebook/201612/68169.html">Python语言</a></h3>
+            <h3><a href="https://download.csdn.net/download/zhonghuart/4147975">D语言</a></h3>
+            <h3><a href="https://download.csdn.net/download/xiaoyu5256/9781271">Haskell语言</a></h3>
+            </center>
+            </p>
+            <div class="bto">
+                <h3>
+                    在线编程
+                </h3>
+                <p class="mm-text">
+                <h3><a href="za.html">小鸟编程在线编辑器</a></h3>
+                </p>
+            </div>
+            <div class="bto">
+                <h3>
+                    设置
+                </h3>
+            </div>
 
-
-
-
-
-    body {
-        scrollbar-face-color: #EFF1F3;
-        scrollbar-highlight-color: #6699CC;
-        scrollbar-shadow-color: #6699CC;
-        scrollbar-3dlight-color: #EFF1F3;
-        scrollbar-darkshadow-color: #EFF1F3;
-        scrollbar-arrow-color: #000000;
-        scrollbar-track-color: #EFF1F3;
-        scrollbar-base-color: #EFF1F3;
-        font-style:normal;
-        color:#000000;
-        background-color: #EFF4FA;
-        background-image: url(image/bg_darkblue.gif);
-    }
-
-    .outerborder {
-        width:630px;
-        border:1px #ffffff solid;
-        padding:2px;
-        margin:0px;
-        background-color:;
-        background-image:url();
-    }
-    .newstab {
-        BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid
-    }
-    .newscely {
-        FONT: bold 15px "宋体"; COLOR: #ffffff; TEXT-DECORATION: none
-    }
-    #table21 tr td #table22 tr td p .style8 font a span {
-        font-size: 10px;
-    }
-    tr td #table22 tr td p .style8 font a span {
-        text-align: right;
-    }
-    -->
-</style>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="小鸟编程.html">小鸟编程 test</a>
+            <section class="KolEditor">
+                <section class="kkmain">
+                    <section class="kkmain-t">
+                        <section class="kkmain-main">
+                            <p>小鸟编程设置</p>
+                            <p>作者：<strong>陈伯麟</strong></p>
+                            <p><span class="wxcode wxs zaaxwxh">检查更新</span></p>
+                            <p>
+                                <a href="javascript:;" class="openwx zaaxwxh" name="openwx"><span class="opencolors">【刷新网页后，点击检查更新】</span></a>
+                            </p>
+                            <p class="orange" style="display: none;">我们会尽量满足您的要求，让您享受最佳的小鸟编程</p>
+                            <p class="imgs-w" style="display: none;">
+                                <img data-original="//cdn.home178.com/trepang/aicode/jba169.jpg" class="lazy wxpict">
+                            </p>
+                            <p class="red">△ 如果有问题，请向我反馈 △</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <div class="bto">
+                <h3>
+                    优秀论坛
+                </h3>
+            </div>
+            <p class="mm-text">
+                <span class="orange">没有优秀论坛呦！大家快来抢沙发！</span>
+            </p>
+            <section class="pinglun" style="border: 0;">
+                <h4 style="margin: 20px 0; overflow: hidden; color: #7f7f7f; font-size: 17px; font-weight: 400; ">论坛</h4>
+                <section class="two-p">
+                    <img data-original="啊.png" class="user lazy" />
+                    <div class="two-right">
+                        <p class="username">作者</p>
+                        <p class="two-gray">大家可在我的邮箱cbl200901@163.com中发一些有趣的电脑程序、小知识等，我会筛选一些有用的，有趣的小知识、小程序，在每周六9~21点刷新论坛栏。</p>
+                        <p style="color: #999; font-size: 13px; margin: 8px 0;">很久以前</p>
+                    </div>
+                </section>
+            </section>
+            <div class="footer">
+                <p>小鸟编程V3.5.7.8</p>
+            </div>
         </div>
     </div>
-</nav>
-<body topmargin="0" width="900" style="background-color: #ffffff; background-image:url(''); text-align: left;">
-<br><br><br><br>
-<div class="app">
-    <h2>电子书下载：</h2>
-    <h3><a href="http://vdisk.weibo.com/s/BN_NALmbbBH0i">C++</a></h3>
-    <h3><a href="https://www.2cto.com/ebook/201612/68169.html">Python</a></h3>
-    <h3><a href="https://download.csdn.net/download/zhonghuart/4147975">D</a></h3>
-    <h3><a href="https://download.csdn.net/download/xiaoyu5256/9781271">Haskell</a></h3>
-    <BR><BR><br>
-    <h4><a href="">在线编程</a></h4>
-    <div>
+</div>
+
+
+<div class="btom" style="position: fixed;bottom: 0;background: #eee;border-top: 1px solid #ccc;width: 100%;font-size: 16px;padding:5px;left:0px;z-index:88">
+    <div style="margin:0px auto;max-width: 600px;">
+        <div style="float:left;">作者QQ：<span style="background:#dd6107;color:white;padding:5px 3px;border-radius: 3px;"><samp style="font-size:15px" oncopy="javascript:window.location.href=&#39;weixin://&#39;"><b class="wxcode zaaxwxh">3513816584</b></samp></span><span class="zaaxwxh" style="color:#cc0000;font-size:14px;">(点击复制)</span><br><span id="copy_btn4" class="copy"></span><span style="font-size: 13px;">纯手工制作，品质良心，<strong class="orange">纯手工蚕丝被！</strong></span></div>
+        <a data-track="点击去微信" class="btn-gowx dbt qwclick wangwang zaaxwxh" style="background: #4fab0b;color: #fff;border-radius: 12px;height: 40px;line-height: 40px;text-align: center;box-shadow: 0 1px 3px 0 #000;display:inline-block;width:70px;float:right;text-decoration: none;">+加好友</a>
+    </div>
+</div>
+<!--一键复制微信号-->
+<div class="clipboards">
+    <div class="clipboards-main" style="border-radius: 24px; background: #f8f8f8;">
+        <!--<div class="clpclosed " name="closed">×</div>-->
+        <div class="clpbox" style="padding:0 10px; ">
+            <p class="clpinfo">
+                <strong style="color: #333;"><span style="font-size: 15px; "></span>检查更新</strong>
+            </p>
+            <p class="clpinfo2" style="text-align: center;font-size: 16px;line-height: 30px; ">
+                <span style="font-size: 18px; ">已是最新版本！<br>小鸟编程 V3.5.7.8</span><br /> 版本号已复制，您可以直接粘贴
+                <br />
+            </p>
+            <hr />
+            <div name="closed" style="color: #509ad7; margin-top: 10px; font-weight: bold; font-size: 15px;">确定</div>
+        </div>
+        <div class="clpbox2">
+            <p class="clpinfo2">
+                您的浏览器不支持此功能，<br/> 请您
+                <span class="red">手动长按复制</span>微信号去添加
+            </p>
+            <p class="clpinfo2">
+                <span class="wxcode clpwx">小鸟编程 V3.5.7.8</span>
+            </p>
+
+        </div>
+    </div>
+</div>
+<script src="//cdn.home178.com/du/bai/style/clipboard.min.js"></script>
+<span id="target" style="font-size:12px; color:#CCC"><button style="background:none; border:none" >小鸟编程 V3.5.7.8</butoon></span>
+<button data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" style="background:none; border:none"></button>
+
+
+<script type="text/javascript">
+    /* toast start */
+    var x = ['现有'];
+    var y = ['100','234','0','11','2'];
+
+    function showToast() {
+        var areaIndex = Math.round(Math.random() * (area.length - 1));
+        var personIndex = Math.round(Math.random() * (person.length - 1));
+        $("#toast_content").text("消息提醒：" + x[areaIndex] + " 人" + y[personIndex] + "在线");
+        $("#toast").fadeIn();
+        setTimeout("dms()", 200);
+    }
+
+    function dms() {
+        $("#toast").fadeOut();
+        setTimeout("showToast()", 1500 + Math.round(Math.random() * 10000));
+    }
+    dms();
+</script>
+<script>
+    $(function() {
+
+        $("div[name=closed]").click(function() {
+            $(".clipboards").fadeOut();
+        });
+        $(".clipboards").on('click', function(a) {
+            if($(a.target).is('.clpclosed') || $(a.target).is('.clipboards')) {
+                $(".clipboards").fadeOut();
+            }
+        });
+    })
+    $(".zaaxwxh").click(function() {
+        $("#copy_btn").trigger("click");
+    })
+</script>
 </body>
+
 </html>

@@ -23,8 +23,8 @@
       <file leaf-file-name="陈伯麟的网站3.5测试版.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2349">
-              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            <state relative-caret-position="2835">
+              <caret line="105" selection-start-line="105" selection-end-line="105" selection-end-column="273" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="蓝心社.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="蓝心社.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/蓝心社.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+            <state relative-caret-position="1674">
+              <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="小鸟编程 v3.0.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小鸟编程 v3.0.html">
+      <file leaf-file-name="小鸟编程 v3.5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/小鸟编程 v3.5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="62" column="45" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="465">
+              <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/za.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -98,17 +98,17 @@
       <file leaf-file-name="小鸟编程 v1.5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/小鸟编程 v1.5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+            <state relative-caret-position="1593">
+              <caret line="59" selection-start-line="59" selection-end-line="65" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="小鸟编程 v1.0.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小鸟编程 v1.0.html">
+      <file leaf-file-name="小鸟编程 v3.0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小鸟编程 v3.0.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
-              <caret line="66" selection-start-line="66" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="2187">
+              <caret line="81" column="32" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -163,7 +163,6 @@
         <option value="$PROJECT_DIR$/小鸟编程 v1.0.html" />
         <option value="$PROJECT_DIR$/小鸟编程 v0.5.html" />
         <option value="$PROJECT_DIR$/小鸟编程在线编辑器.html" />
-        <option value="$PROJECT_DIR$/小鸟编程 v3.5.html" />
         <option value="$PROJECT_DIR$/chinanews.html" />
         <option value="$PROJECT_DIR$/wenews.html" />
         <option value="$PROJECT_DIR$/v.html" />
@@ -176,13 +175,14 @@
         <option value="$PROJECT_DIR$/兑奖.html" />
         <option value="$PROJECT_DIR$/CBL计算器.html" />
         <option value="$PROJECT_DIR$/小鸟编程 v3.0.html" />
-        <option value="$PROJECT_DIR$/za.html" />
         <option value="$PROJECT_DIR$/高层论坛.html" />
         <option value="$PROJECT_DIR$/一带一路.html" />
         <option value="$PROJECT_DIR$/陈伯麟的网站3.5测试版.html" />
         <option value="$PROJECT_DIR$/MC社.html" />
         <option value="$PROJECT_DIR$/p2.html" />
         <option value="$PROJECT_DIR$/蓝心社.html" />
+        <option value="$PROJECT_DIR$/za.html" />
+        <option value="$PROJECT_DIR$/小鸟编程 v3.5.html" />
       </list>
     </option>
   </component>
@@ -347,12 +347,18 @@
       <workItem from="1552793757644" duration="685000" />
       <workItem from="1552823490689" duration="805000" />
       <workItem from="1553086450939" duration="1804000" />
-      <workItem from="1553088363201" duration="272000" />
+      <workItem from="1553088363201" duration="904000" />
+      <workItem from="1561253406083" duration="912000" />
+      <workItem from="1561268163229" duration="1804000" />
+      <workItem from="1561269996994" duration="1013000" />
+      <workItem from="1561807591908" duration="1800000" />
+      <workItem from="1561809411067" duration="1796000" />
+      <workItem from="1561811223645" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111524000" />
+    <option name="totallyTimeSpent" value="120253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +373,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1406744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.06954689" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.3293348" />
       <window_info anchor="bottom" id="调试" order="12" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -658,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小鸟编程 v3.5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/小鸟编程 v0.0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
@@ -686,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小鸟编程 v1.5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/小鸟编程 v1.0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
@@ -700,24 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/za.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/一带一路.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
           <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小鸟编程 v3.0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -735,16 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -754,8 +722,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/蓝心社.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+        <state relative-caret-position="1674">
+          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/za.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="105" selection-start-line="105" selection-end-line="105" selection-end-column="273" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小鸟编程 v3.0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小鸟编程 v1.5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="59" selection-start-line="59" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小鸟编程 v3.5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
         </state>
       </provider>
     </entry>
