@@ -179,22 +179,16 @@
 
 <script type="text/javascript">
     /* toast start */
-    var x = ['现有'];
-    var y = ['100','234','0','11','2'];
-
     function showToast() {
-        var areaIndex = Math.round(Math.random() * (area.length - 1));
-        var personIndex = Math.round(Math.random() * (person.length - 1));
-        $("#toast_content").text("消息提醒：" + x[areaIndex] + " 人" + y[personIndex] + "在线");
         $("#toast").fadeIn();
-        setTimeout("dms()", 200);
+        setTimeout("dismissToast()", 3500);
     }
 
-    function dms() {
+    function dismissToast() {
         $("#toast").fadeOut();
         setTimeout("showToast()", 1500 + Math.round(Math.random() * 10000));
     }
-    dms();
+    dismissToast();
 </script>
 <script>
     $(function() {
