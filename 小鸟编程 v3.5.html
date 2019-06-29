@@ -154,11 +154,11 @@
                 <strong style="color: #333;"><span style="font-size: 15px; "></span>检查更新</strong>
             </p>
             <p class="clpinfo2" style="text-align: center;font-size: 16px;line-height: 30px; ">
-                <span style="font-size: 18px; ">已是最新版本！<br>小鸟编程 V3.5.7.8</span><br /> 版本号已复制，您可以直接粘贴
+                <span style="font-size: 18px; ">已是最新版本！<br>V3.5.7.8<br>版本号已复制</span><br /> 您可以直接粘贴
                 <br />
             </p>
             <hr />
-            <div name="closed" style="color: #509ad7; margin-top: 10px; font-weight: bold; font-size: 15px;">确定</div>
+            <div name="closed" style="color: #509ad7; margin-top: 10px; font-weight: bold; font-size: 15px;">我知道了</div>
         </div>
         <div class="clpbox2">
             <p class="clpinfo2">
@@ -166,22 +166,50 @@
                 <span class="red">手动长按复制</span>微信号去添加
             </p>
             <p class="clpinfo2">
-                <span class="wxcode clpwx">小鸟编程 V3.5.7.8</span>
+                <span class="wxcode clpwx">jba169</span>
             </p>
 
         </div>
     </div>
 </div>
+<!--一键复制微信号-->
+<!--<script src="//cdn.home178.com/education/common/clipboard/clipboard.min.js" type="text/javascript"></script>-->
 <script src="//cdn.home178.com/du/bai/style/clipboard.min.js"></script>
-<span id="target" style="font-size:12px; color:#CCC"><button style="background:none; border:none" >小鸟编程 V3.5.7.8</butoon></span>
+<span id="target" style="font-size:12px; color:#CCC"><button style="background:none; border:none" >jba169</butoon></span>
 <button data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn" style="background:none; border:none"></button>
 
+<script>
+    $(document).ready(function() {
+        var targetText = $("#target").text();
+        var clipboard = new Clipboard('#copy_btn');
+        clipboard.on('success', function(e) {
+            console.info('Action:', e.action);
+            console.info('Text:', e.text);
+            console.info('Trigger:', e.trigger);
+            show();
+            e.clearSelection();
+        });
+        clipboard.on('error', function(e) {
+            console.info('Action:', e.action);
+            console.info('Text:', e.text);
+            console.info('Trigger:', e.trigger);
+            show();
+            e.clearSelection();
+        });
+    });
 
+    function show() {
+        $(".clipboards").show();
+        $(".clpbox").show();
+        $(".clpbox2").hide();
+    }
+</script>
 <script type="text/javascript">
     /* toast start */
+
+
     function showToast() {
-        $("#toast").fadeIn();
-        setTimeout("dismissToast()", 3500);
+
     }
 
     function dismissToast() {
