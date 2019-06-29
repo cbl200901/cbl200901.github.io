@@ -20,10 +20,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="陈伯麟的网站3.5测试版.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="陈伯麟的网站3.5测试版.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
+            <state relative-caret-position="2619">
               <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,11 +77,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="小鸟编程 v3.5.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="小鸟编程 v3.5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/小鸟编程 v3.5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4806">
-              <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+            <state relative-caret-position="-1523">
+              <caret line="156" column="94" selection-start-line="156" selection-start-column="94" selection-end-line="156" selection-end-column="94" />
+              <folding>
+                <element signature="n#style#0;n#p#4;n#section#0;n#section#0;n#section#0;n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#5;n#section#0;n#section#0;n#section#0;n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +195,8 @@
         <option value="$PROJECT_DIR$/p2.html" />
         <option value="$PROJECT_DIR$/蓝心社.html" />
         <option value="$PROJECT_DIR$/za.html" />
-        <option value="$PROJECT_DIR$/小鸟编程 v3.5.html" />
         <option value="$PROJECT_DIR$/陈伯麟的网站3.5测试版.html" />
+        <option value="$PROJECT_DIR$/小鸟编程 v3.5.html" />
       </list>
     </option>
   </component>
@@ -203,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,12 +367,14 @@
       <workItem from="1561269996994" duration="1013000" />
       <workItem from="1561807591908" duration="1800000" />
       <workItem from="1561809411067" duration="1796000" />
-      <workItem from="1561811223645" duration="1018000" />
+      <workItem from="1561811223645" duration="1232000" />
+      <workItem from="1561812511993" duration="297000" />
+      <workItem from="1561812938707" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120499000" />
+    <option name="totallyTimeSpent" value="121625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,7 +387,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.06954689" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.3293348" />
@@ -748,19 +763,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小鸟编程 v3.5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4806">
-          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/陈伯麟的网站3.5测试版.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
+        <state relative-caret-position="2619">
           <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小鸟编程 v3.5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1523">
+          <caret line="156" column="94" selection-start-line="156" selection-start-column="94" selection-end-line="156" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#p#4;n#section#0;n#section#0;n#section#0;n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#section#0;n#section#0;n#section#0;n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
